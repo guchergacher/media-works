@@ -1,0 +1,76 @@
+.registration {
+  background-image: $gradient-blue;
+
+  border-radius: 10px;
+}
+
+.registration__group {
+  padding: 100px 20px 40px;
+
+  background-image: url("../img/registration-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 200px auto;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/registration-mobile@2x.png");
+  }
+
+  @media (min-width: $tablet-width) {
+    min-height: 250px;
+    padding: 40px;
+
+    background-image: url("../img/registration-tablet.png");
+    background-position: right center;
+    background-size: 400px auto;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/registration-tablet@2x.png");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    min-height: 371px;
+    padding: 70px;
+
+    background-image: url("../img/registration-desktop.png");
+    background-size: 732px auto;
+
+    @media (min-resolution: $retina-dppx) {
+      background-image: url("../img/registration-desktop@2x.png");
+    }
+  }
+}
+
+.registration__text {
+  margin-top: 0;
+  margin-bottom: 25px;
+
+  font-weight: 600;
+  color: $basic-white;
+
+  @media (min-width: $tablet-width) {
+    max-width: 400px;
+    margin-bottom: 35px;
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 560px;
+    margin-bottom: 46px;
+
+    font-size: 34px;
+    line-height: 45px;
+  }
+}
+
+.sales-pitch__button {
+  @media (max-width: $mobile-width) {
+    width: 100%;
+    min-height: 35px;
+
+    font-size: 16px;
+  }
+}

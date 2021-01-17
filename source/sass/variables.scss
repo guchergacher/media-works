@@ -1,0 +1,30 @@
+// Шрифты
+$special-font: ("Whitney");
+$special-extra-font: ("Segoe UI");
+$basic-font: ("Arial", sans-serif);
+
+$font-stack: join($special-font, $basic-font);
+$font-extra-stack: join($special-extra-font, $basic-font);
+
+// Цвета
+$basic-white: #ffffff;
+$basic-black: #2e2d35;
+$basic-light-black: #474351;
+$basic-dark-black: #1c182f;
+$basic-gray: #dddae7;
+$basic-light-gray: #f6f5f9;
+$basic-dark-gray: #918d9a;
+$basic-orange: #f25b24;
+
+$special-black: #000000;
+
+// Градиенты
+$gradient-blue: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+
+// Вьюпорт
+$tablet-width: 768px;
+$mobile-width: $tablet-width - 1px;
+$desktop-width: 1200px;
+
+// Ретина
+$retina-dppx: 2dppx;

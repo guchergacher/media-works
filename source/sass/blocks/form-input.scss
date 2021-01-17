@@ -1,0 +1,32 @@
+.form-input__label {
+  display: block;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: $basic-light-black;
+}
+
+.form-input__field {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 12px;
+
+  font-size: 16px;
+  line-height: 50px;
+
+  border: 1px solid $basic-gray;
+  border-radius: 4px;
+
+  &:focus {
+    outline: none;
+    border-color: $basic-light-black;
+  }
+
+  &::placeholder {
+    color: $basic-dark-gray;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+.nav__list {
+  @include list-unstyled;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav__item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 100px;
+  }
+}
+
+.nav__link {
+  display: block;
+
+  font-size: 18px;
+  line-height: 25px;
+  color: $basic-white;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &--user {
+    padding-left: 36px;
+
+    background-image: url("../img/icon-user.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px auto;
+
+    @media (min-width: $desktop-width) {
+      padding-right: 13px;
+    }
+  }
+}

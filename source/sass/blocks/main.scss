@@ -1,0 +1,38 @@
+.main {
+  padding-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 185px;
+  }
+}
+
+.main__title {
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: $basic-black;
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.main__sales-pitch {
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 130px;
+  }
+}
+
+.main__presentation {
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 130px;
+  }
+}

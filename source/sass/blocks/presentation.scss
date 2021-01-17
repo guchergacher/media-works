@@ -1,0 +1,40 @@
+.presentation__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: $basic-black;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 50px;
+
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.presentation__list {
+  @include list-unstyled;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.presentation__item {
+  @media (min-width: $desktop-width) {
+    min-height: 235px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+
+    @media (min-width: $tablet-width) {
+      margin-bottom: 0;
+    }
+  }
+}

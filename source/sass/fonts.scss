@@ -1,0 +1,59 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Segoe UI";
+  font-display: swap;
+
+  src: local("Segoe UI Regular"),
+    local("Segoe-UI-Regular"),
+    url("../fonts/segoe-ui-regular.woff2") format("woff2"),
+    url("../fonts/segoe-ui-regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Segoe UI";
+  font-display: swap;
+
+  src: local("Segoe UI Semibold"),
+    local("Segoe-UI-Semibold"),
+    url("../fonts/segoe-ui-semibold.woff2") format("woff2"),
+    url("../fonts/segoe-ui-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Whitney";
+  font-display: swap;
+
+  src: local("Whitney Book"),
+    local("Whitney-Book"),
+    url("../fonts/whitney-book.woff2") format("woff2"),
+    url("../fonts/whitney-book.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Whitney";
+  font-display: swap;
+
+  src: local("Whitney Medium"),
+    local("Whitney-Medium"),
+    url("../fonts/whitney-medium.woff2") format("woff2"),
+    url("../fonts/whitney-medium.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Whitney";
+  font-display: swap;
+
+  src: local("Whitney Semibold"),
+    local("Whitney-Semibold"),
+    url("../fonts/whitney-semibold.woff2") format("woff2"),
+    url("../fonts/whitney-semibold.woff") format("woff");
+}

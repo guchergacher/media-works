@@ -1,0 +1,13 @@
+.modal-form__list {
+  @include list-unstyled;
+
+  margin-bottom: 34px;
+}
+
+.modal-form__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.modal-form__button {
+  width: 100%;
+}

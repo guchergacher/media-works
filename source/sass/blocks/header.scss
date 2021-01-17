@@ -1,0 +1,21 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  background-image: $gradient-blue;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.header__logo img {
+  display: block;
+}

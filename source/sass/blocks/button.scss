@@ -1,0 +1,28 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 222px;
+  min-height: 50px;
+  padding: 8px 25px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: $font-stack;
+  text-align: center;
+  color: $basic-white;
+
+  background-color: $basic-orange;
+  border: none;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: rgba($basic-orange, 0.7);
+    cursor: pointer;
+  }
+
+  &:active {
+    color: rgba($basic-white, 0.3);
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Пустая страница</title>
+
+    <link rel="preload" href="fonts/whitney-book.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/segoe-ui-regular.woff2" as="font" crossorigin="anonymous">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body class="modal-show">
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="index.html">
+          <img src="img/logo.svg" alt="TEST" width="147" height="32">
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="blank.html">Клиентам</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--user" href="modal.html">Войти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h1 class="main__title">Форма aвторизации</h1>
+      </div>
+    </main>
+
+    <div class="modal modal--show" tabindex="-1" role="dialog">
+      <div class="modal__wrapper" role="document">
+        <h2 class="modal__title">Авторизация</h2>
+        <form class="modal__form modal-form" method="post" action="#">
+          <ul class="modal-form__list">
+            <li class="modal-form__item">
+              <label class="form-input">
+                <span class="form-input__label">E-mail</span>
+                <input class="form-input__field" type="email" name="user-email" placeholder="Введите e-mail" required>
+              </label>
+            </li>
+            <li class="modal-form__item">
+              <label class="form-input">
+                <span class="form-input__label">Пароль</span>
+                <input class="form-input__field" type="password" name="user-password" placeholder="Введите пароль" required>
+              </label>
+            </li>
+          </ul>
+          <button class="button modal-form__button" type="submit">Войти</button>
+        </form>
+        <a class="modal__button" href="index.html" aria-label="Закрыть модальное окно"></a>
+      </div>
+    </div>
+  </body>
+</html>
